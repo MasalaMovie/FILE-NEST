@@ -167,7 +167,7 @@ async def Lazy_start():
 
             except Exception as err:
                 print(err)
-                await cmd.reply_text(f"ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ.!\n\n**Error:** `https://t.me/masala_supports`")
+                await cmd.reply_text(f"ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ.!\n\n**Error:** `{err}`")
         
 
     @Bot.on_message((filters.document | filters.video | filters.audio) & ~filters.chat(Config.DB_CHANNEL))
