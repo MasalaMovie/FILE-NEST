@@ -117,15 +117,15 @@ async def Lazy_start():
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                            InlineKeyboardButton("🔊ß⊕†s chαηηεl", url="https://t.me/LazyDeveloper")
+                            InlineKeyboardButton("🍿ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/+lTZqqHOsqPA2N2E1"),
+                            InlineKeyboardButton("🔊ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/MovieMasala_Update")
                         ],
                         [
-                            InlineKeyboardButton("🤖Aß⊕ut ß⊕†", callback_data="aboutbot"),
-                            InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
+                            InlineKeyboardButton("🤖ᴀʙᴏᴜᴛ ʙᴏᴛ", callback_data="aboutbot"),
+                            InlineKeyboardButton("🗣️ᴀʙᴏᴜᴛ ᴅᴇᴠ", url="https://t.me/masalas_universe/33")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                            InlineKeyboardButton("✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧", url="https://t.me/How_To_Download_From_Wibi_Movies/18")
                         ]]))
             else :
                 await cmd.reply_photo(photo=lazy_pic,
@@ -133,15 +133,15 @@ async def Lazy_start():
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                            InlineKeyboardButton("🔊ß⊕†s chαηηεl", url="https://t.me/LazyDeveloper")
+                            InlineKeyboardButton("🍿ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/+lTZqqHOsqPA2N2E1"),
+                            InlineKeyboardButton("🔊ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/MovieMasala_Update")
                         ],
                         [
-                            InlineKeyboardButton("🤖Aß⊕ut ß⊕†", callback_data="aboutbot"),
-                            InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
+                            InlineKeyboardButton("🤖ᴀʙᴏᴜᴛ ʙᴏᴛ", callback_data="aboutbot"),
+                            InlineKeyboardButton("🗣️ᴀʙᴏᴜᴛ ᴅᴇᴠ", url="https://t.me/masalas_universe/33")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                            InlineKeyboardButton("✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧", url="https://t.me/How_To_Download_From_Wibi_Movies/18")
                         ]]))
             
         else:
@@ -183,7 +183,7 @@ async def Lazy_start():
                     return
 
             if message.from_user.id in Config.BANNED_USERS:
-                await message.reply_text("ꜱᴏʀʀʏ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ!\n\nContact [Support Group](https://t.me/LazyDeveloperSupport)",
+                await message.reply_text("ꜱᴏʀʀʏ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ!\n\nContact [Support Group](https://t.me/masala_supports)",
                                         disable_web_page_preview=True)
                 return
 
@@ -270,7 +270,7 @@ async def Lazy_start():
             user_id = int(m.command[1])
             ban_duration = int(m.command[2])
             ban_reason = ' '.join(m.command[3:])
-            ban_log_text = f"BΔnninǤ user {user_id} FФЯ {ban_duration} ᴅᴀʏꜱ ꜰᴏʀ ᴛʜᴇ ʀᴇᴀꜱᴏɴ {ban_reason}."
+            ban_log_text = f"Banning user {user_id} For {ban_duration} ᴅᴀʏꜱ ꜰᴏʀ ᴛʜᴇ ʀᴇᴀꜱᴏɴ {ban_reason}."
             try:
                 await c.send_message(
                     user_id,
@@ -374,14 +374,10 @@ async def Lazy_start():
                 Config.ABOUT_BOT_TEXT,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [
+                   [
                         [
-                            InlineKeyboardButton("⚡️SФUЯCΞ CФDΞS ФF ß⊕Γ",
-                                                url="https://github.com/LazyDeveloperr/MissRozy")
-                        ],
-                        [
-                            InlineKeyboardButton("GФ HФMΞ", callback_data="gotohome"),
-                            InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
+                            InlineKeyboardButton("🏡ɢᴏ ʜᴏᴍᴇ", callback_data="gotohome"),
+                            InlineKeyboardButton("🗣️ᴀʙᴏᴜᴛ ᴅᴇᴠ", url="https://t.me/masalas_universe/33")
                         ]
                     ]
                 )
@@ -393,13 +389,10 @@ async def Lazy_start():
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
                     [
+                        
                         [
-                            InlineKeyboardButton("⚡️SФUЯCΞ CФDΞS ФF ß⊕Γ",
-                                                url="https://github.com/LazyDeveloperr/MissRozy")
-                        ],
-                        [
-                            InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
-                            InlineKeyboardButton("🥷GФ HФMΞ", callback_data="gotohome")
+                            InlineKeyboardButton("🤖ᴀʙᴏᴜᴛ ʙᴏᴛ", callback_data="aboutbot"),
+                            InlineKeyboardButton("🏡ɢᴏ ʜᴏᴍᴇ", callback_data="gotohome")
                         ]
                     ]
                 )
@@ -413,15 +406,15 @@ async def Lazy_start():
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                            InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper")
+                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/+lTZqqHOsqPA2N2E1"),
+                            InlineKeyboardButton("🔊ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/masalas_universe")
                         ],
                         [
-                            InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
-                            InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
+                            InlineKeyboardButton("🤖ᴀʙᴏᴜᴛ ʙᴏᴛ", callback_data="aboutbot"),
+                            InlineKeyboardButton("🗣️ᴀʙᴏᴜᴛ ᴅᴇᴠ", url="https://t.me/masalas_universe/33")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                            InlineKeyboardButton("✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧", url="https://t.me/How_To_Download_From_Wibi_Movies/18")
                         ]
                     ]
                 )
@@ -433,15 +426,15 @@ async def Lazy_start():
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                            InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper")
+                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/+lTZqqHOsqPA2N2E1"),
+                            InlineKeyboardButton("🔊ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/masalas_universe")
                         ],
                         [
-                            InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
-                            InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
+                            InlineKeyboardButton("🤖ᴀʙᴏᴜᴛ ʙᴏᴛ", callback_data="aboutbot"),
+                            InlineKeyboardButton("🗣️ᴀʙᴏᴜᴛ ᴅᴇᴠ", url="https://t.me/masalas_universe/33")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                            InlineKeyboardButton("✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧", url="https://t.me/How_To_Download_From_Wibi_Movies/18")
                         ]
                     ]
                 )
@@ -457,7 +450,7 @@ async def Lazy_start():
                     user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                     if user.status == "kicked":
                         await cmd.message.edit(
-                            text="ꜱᴏʀʀʏ ꜱɪʀ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜꜱᴇ ᴍᴇ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Support Group](https://t.me/LazyDeveloperSupport).",
+                            text="ꜱᴏʀʀʏ ꜱɪʀ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜꜱᴇ ᴍᴇ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Support Group](https://t.me/masala_supports).",
                             disable_web_page_preview=True
                         )
                         return
@@ -469,7 +462,7 @@ async def Lazy_start():
                         reply_markup=InlineKeyboardMarkup(
                             [
                                 [
-                                    InlineKeyboardButton("▌│ 𝙅𝙤𝙞𝙣 𝙐𝙥𝙙𝙖𝙩𝙚𝙨 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 ║║", url=invite_link.invite_link)
+                                    InlineKeyboardButton("✧ 𝙅𝙤𝙞𝙣 𝙐𝙥𝙙𝙖𝙩𝙚𝙨 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 ✧", url=invite_link.invite_link)
                                 ],
                                 [
                                     InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshmeh")
@@ -480,7 +473,7 @@ async def Lazy_start():
                     return
                 except Exception:
                     await cmd.message.edit(
-                        text="ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Support Group](https://t.me/LazyDeveloperSupport).",
+                        text="ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Support Group](https://t.me/masala_supports).",
                         disable_web_page_preview=True
                     )
                     return
@@ -491,15 +484,15 @@ async def Lazy_start():
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                            InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper")
+                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/+lTZqqHOsqPA2N2E1"),
+                            InlineKeyboardButton("🔊ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/masalas_universe")
                         ],
                         [
-                            InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
-                            InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
+                            InlineKeyboardButton("🤖ᴀʙᴏᴜᴛ ʙᴏᴛ", callback_data="aboutbot"),
+                            InlineKeyboardButton("🗣️ᴀʙᴏᴜᴛ ᴅᴇᴠ", url="https://t.me/masalas_universe/33")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                            InlineKeyboardButton("✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧", url="https://t.me/How_To_Download_From_Wibi_Movies/18")
                         ]
                     ]
                 )
@@ -511,15 +504,15 @@ async def Lazy_start():
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                            InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper")
+                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/+lTZqqHOsqPA2N2E1"),
+                            InlineKeyboardButton("🔊ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/masalas_universe")
                         ],
                         [
-                            InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
-                            InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
+                            InlineKeyboardButton("🤖ᴀʙᴏᴜᴛ ʙᴏᴛ", callback_data="aboutbot"),
+                            InlineKeyboardButton("🗣️ᴀʙᴏᴜᴛ ᴅᴇᴠ", url="https://t.me/masalas_universe/33")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                            InlineKeyboardButton("✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧", url="https://t.me/How_To_Download_From_Wibi_Movies/18")
                         ]
                     ]
                 )
@@ -557,7 +550,7 @@ async def Lazy_start():
                 await xo.delete()
 
                 await lazy_file.reply_text(
-                    text=f"•• ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ꜰᴏʀ ɪᴅ #{user_id} \n•• ᴜꜱᴇʀɴᴀᴍᴇ : {username} \n\n•• ᖴᎥᒪᗴ Nᗩᗰᗴ : {fileName}",
+                    text=f"•• ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ꜰᴏʀ ɪᴅ #{user_id} \n•• ᴜꜱᴇʀɴᴀᴍᴇ : {username} \n\n•• 𝗙𝗶𝗹𝗲 𝗡𝗮𝗺𝗲 : {fileName}",
                     quote=True,
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("web Download", url=lazy_download),  # we download Link
