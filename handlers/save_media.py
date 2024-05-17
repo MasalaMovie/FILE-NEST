@@ -55,8 +55,8 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
             f"𝘑𝘶𝘴𝘵 𝘊𝘭𝘪𝘤𝘬 𝘵𝘩𝘦 𝘭𝘪𝘯𝘬 𝘵𝘰 𝘨𝘦𝘵 𝘺𝘰𝘶𝘳 𝘧𝘪𝘭𝘦𝘴!",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("⚡️ Open Link ⚡️", url=share_link)],
-                 [InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper"),
-                  InlineKeyboardButton("🍿supp⊕rt gr⊕up", url="https://t.me/LazyDeveloperSupport")]]
+                 [InlineKeyboardButton("🔊ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/masalas_universe"),
+                  InlineKeyboardButton("🍿ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ", url="https://t.me/+lTZqqHOsqPA2N2E1")]]
             ),
             disable_web_page_preview=True
         )
@@ -148,8 +148,8 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
             f"𝘑𝘶𝘴𝘵 𝘊𝘭𝘪𝘤𝘬 𝘵𝘩𝘦 𝘭𝘪𝘯𝘬 𝘵𝘰 𝘨𝘦𝘵 𝘺𝘰𝘶𝘳 𝘧𝘪𝘭𝘦...",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("⚡️ Open Link ⚡️", url=share_link)],
-                 [InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper"),
-                  InlineKeyboardButton("🍿supp⊕rt gr⊕up", url="https://t.me/LazyDeveloperSupport")]]
+                 [InlineKeyboardButton("🔊ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/masalas_universe"),
+                  InlineKeyboardButton("🍿ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ", url="https://t.me/+lTZqqHOsqPA2N2E1")]]
             ),
             disable_web_page_preview=True
         )
