@@ -118,7 +118,7 @@ async def Lazy_start():
                     [
                         [
                             InlineKeyboardButton("🍿ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ", url="https://t.me/+lTZqqHOsqPA2N2E1"),
-                            InlineKeyboardButton("🔊ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/MovieMasala_Update")
+                            InlineKeyboardButton("🔊ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/masalas_universe")
                         ],
                         [
                             InlineKeyboardButton("🤖ᴀʙᴏᴜᴛ ʙᴏᴛ", callback_data="aboutbot"),
@@ -134,7 +134,7 @@ async def Lazy_start():
                     [
                         [
                             InlineKeyboardButton("🍿ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ", url="https://t.me/+lTZqqHOsqPA2N2E1"),
-                            InlineKeyboardButton("🔊ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/MovieMasala_Update")
+                            InlineKeyboardButton("🔊ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/masalas_universe")
                         ],
                         [
                             InlineKeyboardButton("🤖ᴀʙᴏᴜᴛ ʙᴏᴛ", callback_data="aboutbot"),
